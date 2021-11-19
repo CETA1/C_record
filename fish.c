@@ -3,7 +3,7 @@ int main()
 {
     int m;
     scanf("%d", &m);
-    if(m%5<=3)
+    if(m%5==1||m%5==2||m%5==3)
         printf("打渔");
     else 
         printf("晒网");
